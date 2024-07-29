@@ -7,9 +7,13 @@ const user = {
     location: undefined
 }
 
-for (let i = 0; i < myStudent.length; i++) {
-    console.log(myStudent[i]);
+// for (let i = 0; i < myStudent.length; i++) {
+//     console.log(myStudent[i]);
     
+// }
+
+for (const name of myStudent){
+    console.log(name);
 }
 
 console.log(user.name);
